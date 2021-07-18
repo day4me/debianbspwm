@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -z $@ ]; then
+	echo "nmplol"
+	echo "sodapoppin"
+
+else
+		coproc(streamlink https://twitch.tv/$@ best --player mpv --twitch-disable-ads --twitch-low-latency > /dev/null  2>&1)
+fi

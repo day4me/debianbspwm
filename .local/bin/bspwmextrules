@@ -1,0 +1,20 @@
+#!/bin/sh
+
+id="$1" \
+class="$2" \
+instance="$3";
+#notify-send "$class"
+case "$class" in
+	(mpv)
+		echo "desktop=5 follow=on";;
+	(TelegramDesktop)
+		echo "desktop=4 follow=on";;
+	(discord)
+		echo "desktop=4";;
+	(Google-chrome)
+		echo "desktop=1";;
+	("")
+		case $(ps -p "$(xdo pid "$id")" -o comm= 2>/dev/null) in
+			(spotify) echo "desktop=3 follow=on";;
+		esac;;
+esac;

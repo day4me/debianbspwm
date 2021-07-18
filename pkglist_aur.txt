@@ -1,0 +1,7 @@
+downgrade
+google-chrome
+polybar
+spotify
+ttf-icomoon-feather
+ttf-iosevka
+yay
