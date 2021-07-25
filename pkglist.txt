@@ -1,4 +1,3 @@
-acpilight
 adobe-source-sans-fonts
 alacritty
 aspell-en
@@ -28,7 +27,6 @@ gst-plugins-good
 gst-plugins-ugly
 gzip
 icedtea-web
-intel-gpu-tools
 intel-ucode
 jre8-openjdk
 languagetool
@@ -38,8 +36,6 @@ libva-intel-driver
 libva-utils
 linux
 linux-firmware
-linux-lts
-linux-lts-headers
 m4
 maim
 make
